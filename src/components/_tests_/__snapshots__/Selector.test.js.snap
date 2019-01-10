@@ -1,0 +1,249 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Selector should match snapshot 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Selector
+    currentValue="option1"
+    name="selector-name"
+    onChange={[MockFunction]}
+    values={
+      Array [
+        "option1",
+        "option2",
+      ]
+    }
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <option
+          disabled={true}
+          value=""
+        />,
+        Array [
+          <option
+            value={
+              Array [
+                "0",
+                "1",
+                "2",
+                "3",
+                "4",
+                "5",
+                "6",
+              ]
+            }
+          />,
+          <option
+            value={
+              Array [
+                "0",
+                "1",
+                "2",
+                "3",
+                "4",
+                "5",
+                "6",
+              ]
+            }
+          />,
+        ],
+      ],
+      "name": "selector-name",
+      "onChange": [MockFunction],
+      "required": true,
+      "value": "option1",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": "",
+        "nodeType": "host",
+        "props": Object {
+          "children": undefined,
+          "disabled": true,
+          "value": "",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": "option",
+      },
+      Object {
+        "instance": null,
+        "key": "0,1,2,3,4,5,6",
+        "nodeType": "host",
+        "props": Object {
+          "children": undefined,
+          "value": Array [
+            "0",
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+          ],
+        },
+        "ref": null,
+        "rendered": null,
+        "type": "option",
+      },
+      Object {
+        "instance": null,
+        "key": "0,1,2,3,4,5,6",
+        "nodeType": "host",
+        "props": Object {
+          "children": undefined,
+          "value": Array [
+            "0",
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+          ],
+        },
+        "ref": null,
+        "rendered": null,
+        "type": "option",
+      },
+    ],
+    "type": "select",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <option
+            disabled={true}
+            value=""
+          />,
+          Array [
+            <option
+              value={
+                Array [
+                  "0",
+                  "1",
+                  "2",
+                  "3",
+                  "4",
+                  "5",
+                  "6",
+                ]
+              }
+            />,
+            <option
+              value={
+                Array [
+                  "0",
+                  "1",
+                  "2",
+                  "3",
+                  "4",
+                  "5",
+                  "6",
+                ]
+              }
+            />,
+          ],
+        ],
+        "name": "selector-name",
+        "onChange": [MockFunction],
+        "required": true,
+        "value": "option1",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": "",
+          "nodeType": "host",
+          "props": Object {
+            "children": undefined,
+            "disabled": true,
+            "value": "",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": "option",
+        },
+        Object {
+          "instance": null,
+          "key": "0,1,2,3,4,5,6",
+          "nodeType": "host",
+          "props": Object {
+            "children": undefined,
+            "value": Array [
+              "0",
+              "1",
+              "2",
+              "3",
+              "4",
+              "5",
+              "6",
+            ],
+          },
+          "ref": null,
+          "rendered": null,
+          "type": "option",
+        },
+        Object {
+          "instance": null,
+          "key": "0,1,2,3,4,5,6",
+          "nodeType": "host",
+          "props": Object {
+            "children": undefined,
+            "value": Array [
+              "0",
+              "1",
+              "2",
+              "3",
+              "4",
+              "5",
+              "6",
+            ],
+          },
+          "ref": null,
+          "rendered": null,
+          "type": "option",
+        },
+      ],
+      "type": "select",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;

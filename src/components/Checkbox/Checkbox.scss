@@ -1,0 +1,11 @@
+.checkbox {
+    margin-top: 8px;
+    display: flex;
+    &__label {
+        font-weight: bold;
+        color: #434a54;
+        font-size: 12px;
+        line-height:20px;
+        text-align: left;
+    }
+}
